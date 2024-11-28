@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Смачна Піца</title>
+  <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/styles/styles.css">
+</head>
+<script src="../assets/scripts/main.js"></script>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="../assets/images/logo.png" alt="Логотип Смачної Піци"><br>
+    </div>
+    <nav>
+      <a href="../index.html" class="nav-link" data-uk="Головна" data-en="Home">Головна</a>
+      <a href="./menu.html" class="nav-link" data-uk="Меню" data-en="Menu">Меню</a>
+      <a href="./promotions.html" class="nav-link" data-uk="Акції" data-en="Promotions">Акції</a>
+      <a href="./delivery-payment.html" class="nav-link" data-uk="Доставка" data-en="Delivery">Доставка</a>
+      <a href="./feedback.html" class="nav-link" data-uk="Підтримка" data-en="Support">Підтримка</a>
+      <a href="./about.html" class="nav-link" data-uk="Про нас" data-en="About Us">Про нас</a>
+      <div class="language-switcher">
+        <button onclick="switchLanguage('uk')" class="active">UA</button>
+        <button onclick="switchLanguage('en')">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Title -->
+  <section class="page-title">
+    <h1 data-uk="Доставка та оплата" data-en="Delivery and Payment">Доставка та оплата</h1>
+</section>
+
+<!-- Delivery Information -->
+<section class="delivery-info">
+    <h2 data-uk="Умови доставки" data-en="Delivery Terms">Умови доставки</h2>
+    <ul>
+        <li data-uk="Доставка здійснюється щодня з 10:00 до 22:00." data-en="Delivery is available daily from 10:00 AM to 10:00 PM.">
+            Доставка здійснюється щодня з 10:00 до 22:00.
+        </li>
+        <li data-uk="Мінімальна сума замовлення для доставки — 200 грн." data-en="The minimum order amount for delivery is 200 UAH.">
+            Мінімальна сума замовлення для доставки — 200 грн.
+        </li>
+        <li data-uk="При замовленні від 300 грн доставка безкоштовна." data-en="Free delivery for orders over 300 UAH.">
+            При замовленні від 300 грн доставка безкоштовна.
+        </li>
+    </ul>
+    <h2 data-uk="Зони доставки" data-en="Delivery Zones">Зони доставки</h2>
+    <p data-uk="Перевірте, чи знаходиться ваш район у зоні доставки:" data-en="Check if your area is within the delivery zone:">
+        Перевірте, чи знаходиться ваш район у зоні доставки:
+    </p>
+    <img class="img-info" style="border-radius: 8px;" src="../assets/images/map.jpg" alt="Карта зон доставки">
+</section>
+
+<!-- Payment Information -->
+<section class="payment-info">
+    <h2 data-uk="Способи оплати" data-en="Payment Methods">Способи оплати</h2>
+    <ul>
+        <li data-uk="Оплата онлайн: Visa, MasterCard, Google Pay, Apple Pay." data-en="Online payment: Visa, MasterCard, Google Pay, Apple Pay.">
+            Оплата онлайн: Visa, MasterCard, Google Pay, Apple Pay.
+        </li>
+        <li data-uk="Готівкою кур’єру при отриманні замовлення." data-en="Cash to the courier upon receipt of the order.">
+            Готівкою кур’єру при отриманні замовлення.
+        </li>
+    </ul>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>
+      <span data-uk="Контактна інформація" data-en="Contact Information">Контактна інформація</span>: 
+      (123) 456-7890 | 
+      <a href="mailto:smachnapizza@gmail.com">info@smachnapizza.com</a>
+    </p>
+    
+    <p>
+      <span data-uk="Слідкуйте за нами" data-en="Follow us">Слідкуйте за нами</span>: 
+      <a href="https://www.facebook.com/">Facebook</a> | 
+      <a href="https://www.instagram.com/">Instagram</a>
+    </p>
+    
+    <p>
+      <span data-uk="© 2024 Смачна Піца. Всі права захищені." data-en="© 2024 Smachna Pizza. All rights reserved.">
+        &copy; 2024 Смачна Піца. Всі права захищені.
+      </span>
+    </p>    
+  </footer>
+</body>
+</html>

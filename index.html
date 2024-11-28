@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Смачна Піца</title>
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<script src="assets/scripts/main.js"></script>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="assets/images/logo.png" alt="Логотип Смачної Піци"><br>
+    </div>
+    <nav>
+      <a href="./index.html" class="nav-link" data-uk="Головна" data-en="Home">Головна</a>
+      <a href="./html-файли/menu.html" class="nav-link" data-uk="Меню" data-en="Menu">Меню</a>
+      <a href="./html-файли/promotions.html" class="nav-link" data-uk="Акції" data-en="Promotions">Акції</a>
+      <a href="./html-файли/delivery-payment.html" class="nav-link" data-uk="Доставка" data-en="Delivery">Доставка</a>
+      <a href="./html-файли/feedback.html" class="nav-link" data-uk="Підтримка" data-en="Support">Підтримка</a>
+      <a href="./html-файли/about.html" class="nav-link" data-uk="Про нас" data-en="About Us">Про нас</a>
+      <div class="language-switcher">
+        <button onclick="switchLanguage('uk')" class="active">UA</button>
+        <button onclick="switchLanguage('en')">EN</button>
+      </div>
+    </nav>    
+  </header>
+  
+  <main id="content">
+    <!-- Динамічний контент завантажується тут -->
+    <h1 class="page-title" data-uk="Ласкаво просимо до Смачної Піци!" data-en="Welcome to Smachna Pizza!">Ласкаво просимо до Смачної Піци!</h1>
+    <section class="banner-slider">
+      <div class="slides">
+          <img src="assets/images/4cheese.jpg" alt="Акція 1">
+          <img src="assets/images/4meats.jpg" alt="Акція 2">
+          <img src="assets/images/bbq-min.jpg" alt="Акція 3">
+          <img src="assets/images/gav.jpg" alt="Акція 4">
+          <img src="assets/images/grb.jpg" alt="Акція 5">
+          <img src="assets/images/4cheese.jpg" alt="Акція 1">
+          <img src="assets/images/4meats.jpg" alt="Акція 2">
+          <img src="assets/images/bbq-min.jpg" alt="Акція 3">
+          <img src="assets/images/gav.jpg" alt="Акція 4">
+          <img src="assets/images/grb.jpg" alt="Акція 5">
+      </div>
+    </section>
+    <section class="main-slider">
+        <div class="container">
+            <h2 class="section-title" data-uk="Колекції" data-en="Colections">Популярне</h2>
+            <div class="slider-grid">
+                <div class="slider-item">
+                  <a href="./html-файли/menu.html">
+                    <img src="assets/images/bbq-min.jpg" alt="Популярна піца 1">
+                  </a>
+                    <div class="slider-caption">
+                        <h3 data-uk="BBQ" data-en="BBQ">BBQ</h3>
+                    </div>
+                </div>
+                <div class="slider-item">
+                  <a href="./html-файли/menu.html">
+                    <img src="assets/images/lit.jpg" alt="Популярна піца 2">
+                  </a>
+                    <div class="slider-caption">
+                        <h3 data-uk="Літня" data-en="Summer">Літня</h3>
+                    </div>
+                </div>
+                <div class="slider-item">
+                  <a href="./html-файли/menu.html">
+                    <img src="assets/images/home.jpg" alt="Популярна піца 3">
+                  </a>
+                    <div class="slider-caption">
+                        <h3 data-uk="Домашня" data-en="Homemade">Домашня</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      <span data-uk="Контактна інформація" data-en="Contact Information">Контактна інформація</span>: 
+      (123) 456-7890 | 
+      <a href="mailto:smachnapizza@gmail.com">info@smachnapizza.com</a>
+    </p>
+    
+    <p>
+      <span data-uk="Слідкуйте за нами" data-en="Follow us">Слідкуйте за нами</span>: 
+      <a href="https://www.facebook.com/">Facebook</a> | 
+      <a href="https://www.instagram.com/">Instagram</a>
+    </p>
+    
+    <p>
+      <span data-uk="© 2024 Смачна Піца. Всі права захищені." data-en="© 2024 Smachna Pizza. All rights reserved.">
+        &copy; 2024 Смачна Піца. Всі права захищені.
+      </span>
+    </p>    
+  </footer>
+
+</body>
+</html>

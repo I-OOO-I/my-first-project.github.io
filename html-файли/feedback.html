@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Смачна Піца</title>
+  <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/styles/styles.css">
+</head>
+<script src="../assets/scripts/main.js"></script>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="../assets/images/logo.png" alt="Логотип Смачної Піци"><br>
+    </div>
+    <nav>
+      <a href="../index.html" class="nav-link" data-uk="Головна" data-en="Home">Головна</a>
+      <a href="./menu.html" class="nav-link" data-uk="Меню" data-en="Menu">Меню</a>
+      <a href="./promotions.html" class="nav-link" data-uk="Акції" data-en="Promotions">Акції</a>
+      <a href="./delivery-payment.html" class="nav-link" data-uk="Доставка" data-en="Delivery">Доставка</a>
+      <a href="./feedback.html" class="nav-link" data-uk="Підтримка" data-en="Support">Підтримка</a>
+      <a href="./about.html" class="nav-link" data-uk="Про нас" data-en="About Us">Про нас</a>
+      <div class="language-switcher">
+        <button onclick="switchLanguage('uk')" class="active">UA</button>
+        <button onclick="switchLanguage('en')">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Title -->
+  <section class="page-title">
+    <h1 style="margin-top: 200px" data-uk="Зворотний зв'язок" data-en="Feedback">Зворотний зв'язок</h1>
+</section>
+
+<!-- Feedback Form -->
+<section class="feedback-form">
+    <h2 data-uk="Напишіть нам" data-en="Contact Us">Напишіть нам</h2>
+    <form id="feedbackForm" action="#" method="post">
+        <label for="name" data-uk="Ваше ім'я:" data-en="Your Name:">Ваше ім'я:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email" data-uk="Електронна пошта:" data-en="Email:">Електронна пошта:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message" data-uk="Ваше повідомлення:" data-en="Your Message:">Ваше повідомлення:</label>
+        <textarea style="resize: none" id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit" data-uk="Надіслати" data-en="Send">Надіслати</button>
+    </form>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>
+      <span data-uk="Контактна інформація" data-en="Contact Information">Контактна інформація</span>: 
+      (123) 456-7890 | 
+      <a href="mailto:smachnapizza@gmail.com">info@smachnapizza.com</a>
+    </p>
+    
+    <p>
+      <span data-uk="Слідкуйте за нами" data-en="Follow us">Слідкуйте за нами</span>: 
+      <a href="https://www.facebook.com/">Facebook</a> | 
+      <a href="https://www.instagram.com/">Instagram</a>
+    </p>
+    
+    <p>
+      <span data-uk="© 2024 Смачна Піца. Всі права захищені." data-en="© 2024 Smachna Pizza. All rights reserved.">
+        &copy; 2024 Смачна Піца. Всі права захищені.
+      </span>
+    </p>    
+  </footer>
+</body>
+</html>
